@@ -1,0 +1,8 @@
+<!--pages/maPage/next.wxml-->
+<navigation-bar title="Deuxième Page" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+    <view class="container">
+        <view> Hello {{name}}</view>
+        <button bind:tap="changeValue" class="button">Switch</button>
+    </view>
+</scroll-view>
